@@ -21,4 +21,9 @@ public class Procesor {
     public void setRychlost(long rychlost) {
         this.rychlost = rychlost;
     }
+
+
+    public String toString() {
+        return ("vyrobce procesoru:") + vyrobce + ", " + "rychlost procesoru: " + rychlost + " Hz, ";
+    }
 }

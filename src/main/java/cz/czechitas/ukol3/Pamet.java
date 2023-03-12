@@ -12,7 +12,7 @@ public class Pamet {
         this.kapacita = kapacita;
     }
 
-    public String toString(){
-        System.out.println("'kapacita pameti je");
-        return kapacita +" GB ";}
+    public String toString() {
+        return ("kapacita pameti je: ") + kapacita + " B, ";
+    }
 }

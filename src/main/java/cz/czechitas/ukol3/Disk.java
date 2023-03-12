@@ -21,8 +21,9 @@ public class Disk {
         this.vyuziteMisto = vyuziteMisto;
     }
 
-    public String toString(){
-        return ("kapacita: " ) + kapacita +" GB " + "vyuzite misto: " + vyuziteMisto +" GB";
+    public String toString() {
+        return ("kapacita diku: ") + kapacita + " B, " + ("vyuzite misto disku:") + vyuziteMisto + " B, ";
+
 
     }
 }
